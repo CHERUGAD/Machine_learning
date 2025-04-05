@@ -32,3 +32,10 @@ plt.title('Linear Regression')
 plt.xlabel('X-axis')
 plt.ylabel('Y-axis')
 plt.show()
+def predict(x):
+    return m*x + c
+print(predict(6))
+print(predict(7))
+print(predict(8))
+print(predict(9))
+
